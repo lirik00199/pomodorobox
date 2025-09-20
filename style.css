@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #game-container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  #game-area {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #ddd;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  #tomato {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #e63946;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.1s ease;
+  }
+
+  .game-stats {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+  }
+  
+  #start-game {
+    background: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+  }
+
+  #start-game:hover {
+    background: #21867a;
+  }
+  
